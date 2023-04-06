@@ -1,5 +1,5 @@
 {
-  "name": "@yo/button",
+  "name": "@yo/box",
   "version": "1.0.0",
   "main": "dist/main.js",
   "module": "dist/module.js",
@@ -17,8 +17,5 @@
   },
   "peerDependencies": {
     "react": "*"
-  },
-  "dependencies": {
-    "clsx": "^1.2.1"
   }
 }

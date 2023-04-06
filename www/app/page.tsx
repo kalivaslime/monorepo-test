@@ -1,18 +1,18 @@
 import Image from 'next/image'
 import {Inter} from 'next/font/google'
 import styles from './page.module.css'
-import {Button} from 'yolo'
+import {Button, Box} from 'yolo'
 
 const inter = Inter({subsets: ['latin']})
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
+      <Box as='div' className={styles.description}>
+        <Box as='p'>
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
-        </p>
+        </Box>
         <div>
           <a
             href='https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
@@ -31,7 +31,7 @@ export default function Home() {
           </a>
           <Button>Click me</Button>
         </div>
-      </div>
+      </Box>
 
       <div className={styles.center}>
         <Image

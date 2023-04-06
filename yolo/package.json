@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@yo/box": "workspace:^",
     "@yo/button": "workspace:^"
   }
 }
