@@ -1,4 +1,4 @@
-## Comands
+## Commands
 
 project init
 
@@ -8,7 +8,7 @@ pnpm init
 
 ## Install root deps
 
-typescipt
+## Typescipt
 
 ```sh
 pnpm add -Dw typescript

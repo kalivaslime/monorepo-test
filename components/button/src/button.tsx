@@ -1,12 +1,14 @@
-import React from 'react'
+import React, {ComponentPropsWithoutRef} from 'react'
 import * as styles from './button.module.css'
 
-type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>
+type ButtonProps = {
+  variant?: 'primary' | 'secondary'
+} & ComponentPropsWithoutRef<'button'>
 
 export const Button = (props: ButtonProps) => {
-  const {children, ...rest} = props
+  const {variant, children, ...rest} = props
   return (
-    <button className={styles.button} {...rest}>
+    <button className={styles.btn} {...rest}>
       {children}
     </button>
   )
