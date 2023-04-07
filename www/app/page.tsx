@@ -29,7 +29,7 @@ export default function Home() {
               priority
             />
           </a>
-          <Button>Click me</Button>
+          <Button variant='secondary'>Click me</Button>
         </div>
       </Box>
 
