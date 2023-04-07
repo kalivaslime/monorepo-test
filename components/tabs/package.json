@@ -1,0 +1,25 @@
+{
+  "name": "@yo/tabs",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "source": "src/index.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "scripts": {
+    "build": "parcel build --no-cache"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "dependencies": {
+    "@radix-ui/react-tabs": "^1.0.3",
+    "clsx": "^1.2.1"
+  }
+}

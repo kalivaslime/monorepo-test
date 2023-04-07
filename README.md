@@ -1,12 +1,25 @@
+# Design System Monorepo Template
+
+## with pNpM Turborepo Typescript Parcel React
+
 ## Commands
 
-project init
-
 ```sh
-pnpm init
+pnpm install
+pnpm build
 ```
 
-## Install root deps
+## Add package to root
+
+```sh
+pnpm add -Dw package-name
+```
+
+## Add package to workspace
+
+```sh
+pnpm --filter workspace-name add package-name
+```
 
 ## Typescipt
 
@@ -28,14 +41,8 @@ pnpm add -Dw @types/react @types/react-dom
 pnpm add -Dw parcel
 ```
 
-## Add package to root
+## Turborepo
 
 ```sh
-pnpm add -Dw package-name
-```
-
-## Add package to workspace
-
-```sh
-pnpm --filter workspace-name add package-name
+pnpm add -Dw turborepo
 ```

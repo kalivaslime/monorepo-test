@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@yo/box": "workspace:^",
-    "@yo/button": "workspace:^"
+    "@yo/button": "workspace:^",
+    "@yo/tabs": "workspace:^"
   }
 }
